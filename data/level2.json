@@ -1,0 +1,238 @@
+{
+  "A": [
+    {
+      "node": "P1",
+      "time": 3,
+      "risk": 1
+    },
+    {
+      "node": "P2",
+      "time": 2,
+      "risk": 2
+    },
+    {
+      "node": "P6",
+      "time": 5,
+      "risk": 2
+    }
+  ],
+  "P1": [
+    {
+      "node": "A",
+      "time": 3,
+      "risk": 1
+    },
+    {
+      "node": "P3",
+      "time": 4,
+      "risk": 1
+    }
+  ],
+  "P2": [
+    {
+      "node": "A",
+      "time": 2,
+      "risk": 2
+    },
+    {
+      "node": "P4",
+      "time": 3,
+      "risk": 2
+    }
+  ],
+  "P3": [
+    {
+      "node": "P1",
+      "time": 4,
+      "risk": 1
+    },
+    {
+      "node": "P5",
+      "time": 2,
+      "risk": 1
+    }
+  ],
+  "P4": [
+    {
+      "node": "P2",
+      "time": 3,
+      "risk": 2
+    },
+    {
+      "node": "P5",
+      "time": 5,
+      "risk": 1
+    }
+  ],
+  "P5": [
+    {
+      "node": "P3",
+      "time": 2,
+      "risk": 1
+    },
+    {
+      "node": "P4",
+      "time": 5,
+      "risk": 1
+    },
+    {
+      "node": "P7",
+      "time": 3,
+      "risk": 3
+    }
+  ],
+  "P6": [
+    {
+      "node": "A",
+      "time": 5,
+      "risk": 2
+    },
+    {
+      "node": "P7",
+      "time": 1,
+      "risk": 1
+    },
+    {
+      "node": "P8",
+      "time": 2,
+      "risk": 2
+    }
+  ],
+  "P7": [
+    {
+      "node": "P5",
+      "time": 3,
+      "risk": 3
+    },
+    {
+      "node": "P6",
+      "time": 1,
+      "risk": 1
+    },
+    {
+      "node": "P9",
+      "time": 4,
+      "risk": 2
+    }
+  ],
+  "P8": [
+    {
+      "node": "P6",
+      "time": 2,
+      "risk": 2
+    },
+    {
+      "node": "P10",
+      "time": 3,
+      "risk": 1
+    }
+  ],
+  "P9": [
+    {
+      "node": "P7",
+      "time": 4,
+      "risk": 2
+    },
+    {
+      "node": "P11",
+      "time": 2,
+      "risk": 2
+    }
+  ],
+  "P10": [
+    {
+      "node": "P8",
+      "time": 3,
+      "risk": 1
+    },
+    {
+      "node": "P12",
+      "time": 5,
+      "risk": 2
+    }
+  ],
+  "P11": [
+    {
+      "node": "P9",
+      "time": 2,
+      "risk": 2
+    },
+    {
+      "node": "P13",
+      "time": 3,
+      "risk": 1
+    }
+  ],
+  "P12": [
+    {
+      "node": "P10",
+      "time": 5,
+      "risk": 2
+    },
+    {
+      "node": "P14",
+      "time": 2,
+      "risk": 3
+    }
+  ],
+  "P13": [
+    {
+      "node": "P11",
+      "time": 3,
+      "risk": 1
+    },
+    {
+      "node": "P15",
+      "time": 4,
+      "risk": 1
+    }
+  ],
+  "P14": [
+    {
+      "node": "P12",
+      "time": 2,
+      "risk": 3
+    },
+    {
+      "node": "P16",
+      "time": 3,
+      "risk": 2
+    }
+  ],
+  "P15": [
+    {
+      "node": "P13",
+      "time": 4,
+      "risk": 1
+    },
+    {
+      "node": "P17",
+      "time": 2,
+      "risk": 1
+    }
+  ],
+  "P16": [
+    {
+      "node": "P14",
+      "time": 3,
+      "risk": 2
+    },
+    {
+      "node": "P17",
+      "time": 4,
+      "risk": 2
+    }
+  ],
+  "P17": [
+    {
+      "node": "P15",
+      "time": 2,
+      "risk": 1
+    },
+    {
+      "node": "P16",
+      "time": 4,
+      "risk": 2
+    }
+  ]
+}
