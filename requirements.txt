@@ -1,0 +1,3 @@
+# Runtime: stdlib only (json, heapq, argparse, pathlib).
+# Dev/test dependencies:
+pytest>=7.4
