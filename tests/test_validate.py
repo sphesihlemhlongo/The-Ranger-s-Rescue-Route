@@ -14,11 +14,17 @@ def l1():
 
 
 def test_valid_route_cost(l1):
-    # Optimal A->B route in the committed level 1 data.
-    assert validate_route(l1, ["A", "D", "B"]) == 7
+    # The optimal Level 1 route: 2 + 3 + 4 = 9.
+    assert validate_route(l1, ["A", "D", "E", "B"]) == 9
+
+
+def test_suboptimal_but_valid_route(l1):
+    # Every hop is a real edge, so this validates; it is just more expensive.
+    assert validate_route(l1, ["A", "C", "E", "B"]) == 13
 
 
 def test_fake_hop_raises_naming_pair(l1):
+    # There is no direct A-B trail; the scorer would give this route zero.
     with pytest.raises(ValueError) as exc:
         validate_route(l1, ["A", "B"])
     assert str(("A", "B")) in str(exc.value)

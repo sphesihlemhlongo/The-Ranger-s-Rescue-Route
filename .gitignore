@@ -25,6 +25,10 @@ dist/
 # Generated output
 out/
 
+# Packaged submissions (produced by scripts/package.py)
+submission*/
+*.zip
+
 # OS files
 .DS_Store
 Thumbs.db
